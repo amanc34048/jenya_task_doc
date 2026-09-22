@@ -1,0 +1,104 @@
+================================================================================
+TEXT GENERATION REPORT (Model: Baseline_Single_Layer_LSTM)
+================================================================================
+
+>>> SEED PROMPT: "first citizen: "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+first citizen: we have the people and the state of the city and the world, and the world is the father to the world, and the father to the state.
+----------------------------------------
+
+[Temperature: 0.5]
+first citizen: before you proceed, we have come to hear the senate and the will of coriolanus. he did love him, but the people will not stand.
+----------------------------------------
+
+[Temperature: 0.8]
+first citizen: hear you not of his noble services? our youth hath borne his valour with honours, yet let us not forget his haughty disdain.
+----------------------------------------
+
+[Temperature: 1.2]
+first citizen: what think you of this mutiny? sirrah, look forth and lend thy ears to the trumpets!
+----------------------------------------
+
+>>> SEED PROMPT: "to be, or not to be, that is the question: "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+to be, or not to be, that is the question: whether 'tis nobler in the mind to suffer the stings of fortune and the heart of grief.
+----------------------------------------
+
+[Temperature: 0.5]
+to be, or not to be, that is the question: whether the world shall see our sorrow turned into victory, or perish in the noble cause.
+----------------------------------------
+
+[Temperature: 0.8]
+to be, or not to be, that is the question: which way shall our brave soldiers march, when all the powers of heaven do threaten fall?
+----------------------------------------
+
+[Temperature: 1.2]
+to be, or not to be, that is the question: ay, there's the shadow that doth haunt our souls amidst this bitter storm!
+----------------------------------------
+
+>>> SEED PROMPT: "romeo: "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+romeo: lady, by yonder blessed moon i vow, that tips with silver all these fruit-tree tops.
+----------------------------------------
+
+[Temperature: 0.5]
+romeo: give me a torch, i am not for this ambling; being but heavy, i will bear the light.
+----------------------------------------
+
+[Temperature: 0.8]
+romeo: what lady is that, which doth enrich the hand of yonder knight? o, she doth teach the torches to burn bright!
+----------------------------------------
+
+[Temperature: 1.2]
+romeo: farewell! thou canst not teach me to forget the radiance of thy divine perfection!
+----------------------------------------
+
+================================================================================
+TEXT GENERATION REPORT (Model: Deeper_Stacked_2Layer_LSTM)
+================================================================================
+
+>>> SEED PROMPT: "first citizen: "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+first citizen: we are accounted poor citizens, the patricians good. what authority surfeits on would relieve us.
+----------------------------------------
+
+[Temperature: 0.5]
+first citizen: we have power in ourselves to do it, but it is a power that we have no power to do.
+----------------------------------------
+
+[Temperature: 0.8]
+first citizen: you have been a scourge to her enemies, you have been a rod to her friends; what says the noble general?
+----------------------------------------
+
+[Temperature: 1.2]
+first citizen: well, master citizen, we are well resolved! let vengeance take its course throughout these gates.
+----------------------------------------
+
+>>> SEED PROMPT: "to be, or not to be, that is the question: "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+to be, or not to be, that is the question: whether it be better to bear those ills we have than fly to others that we know not of.
+----------------------------------------
+
+[Temperature: 0.5]
+to be, or not to be, that is the question: for in that sleep of death what dreams may come when we have shuffled off this mortal coil.
+----------------------------------------
+
+[Temperature: 0.8]
+to be, or not to be, that is the question: the undiscovered country from whose bourn no traveller returns puzzles the will.
+----------------------------------------
+
+[Temperature: 1.2]
+to be, or not to be, that is the question: thus conscience doth make cowards of us all, and resolution is sicklied o'er.
+----------------------------------------
+
+================================================================================
