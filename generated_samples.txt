@@ -6,58 +6,142 @@ TEXT GENERATION REPORT (Model: Baseline_Single_Layer_LSTM)
 ------------------------------------------------------------
 
 [Temperature: 0.2]
-first citizen: we have the people and the state of the city and the world, and the world is the father to the world, and the father to the state.
+first citizen: the good to the compent the componted the componted the pearted the poople the people the compersed the compented the reat he have the pearted to the people the belling the people the bear the hear hi
 ----------------------------------------
 
 [Temperature: 0.5]
-first citizen: before you proceed, we have come to hear the senate and the will of coriolanus. he did love him, but the people will not stand.
+first citizen: and he did the gorth.
+
+coriolanus:
+as the our peaster af it to the people.
+
+virgilia:
+no, so mear to be the to his and cortion consul: in the ofle.
+
+sicinius:
+thy compedsent his dounter i the forter,
 ----------------------------------------
 
 [Temperature: 0.8]
-first citizen: hear you not of his noble services? our youth hath borne his valour with honours, yet let us not forget his haughty disdain.
+first citizen: your not,
+had he canter aedilarciup the sun his their poneling itstach our of the in speech in the but-on the lott our reen.
+
+third citizen:
+you are not mariis the pett; if they you betore theme word
 ----------------------------------------
 
 [Temperature: 1.2]
-first citizen: what think you of this mutiny? sirrah, look forth and lend thy ears to the trumpets!
+first citizen: the grlatis! thither a crust icher, noon what that i as he mirt
+i wolds.-
+letwer it not your hisgore caniandseal frome:
+why let sen peag by the berselves beoze,--birgigius.
+
+serind colionin:
+uppower f
 ----------------------------------------
 
 >>> SEED PROMPT: "to be, or not to be, that is the question: "
 ------------------------------------------------------------
 
 [Temperature: 0.2]
-to be, or not to be, that is the question: whether 'tis nobler in the mind to suffer the stings of fortune and the heart of grief.
+to be, or not to be, that is the question: i will not the peall the comm, the compon the compon the bear his are the flear the compon the people the our prover to the our the commers and the people the compore the compore the compon the pearte
 ----------------------------------------
 
 [Temperature: 0.5]
-to be, or not to be, that is the question: whether the world shall see our sorrow turned into victory, or perish in the noble cause.
+to be, or not to be, that is the question: they you strat your cannot the people the hat in the our cominius.
+
+second citizen:
+the now o'e brent, the dounds bear in the sunt your the pearts.
+
+virgilia:
+no, good that in the canot to be the peop
 ----------------------------------------
 
 [Temperature: 0.8]
-to be, or not to be, that is the question: which way shall our brave soldiers march, when all the powers of heaven do threaten fall?
+to be, or not to be, that is the question: ay the city o'e of statrear i' the cortions the good, and not i shall have my his privers, he ape to the compnies come beence the bofer i muse
+and what he had i heart he will peather af are it the pea
 ----------------------------------------
 
 [Temperature: 1.2]
-to be, or not to be, that is the question: ay, there's the shadow that doth haunt our souls amidst this bitter storm!
+to be, or not to be, that is the question: heer toms mearfit' our have end
+the reat,er, thain thind saiks doed st
+woudd
+ro,e my his endschy' word o'teram;'s their taod, thew- i cusine midet
+one raars,
+caminius:
+he oe than make, rom; qaerid's s
+----------------------------------------
+
+>>> SEED PROMPT: "shall i compare thee to a summer's day? "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+shall i compare thee to a summer's day? he have have hear the comping the comm of the compont the comm, the bear the gods the canted to the people and the people streat the people the comm of the commy and the people stand the people streat
+----------------------------------------
+
+[Temperature: 0.5]
+shall i compare thee to a summer's day? he here on the for your the choles on the poople as comping the comment the stand in the bellat, they soung the compited the states the reater the comment the people.
+
+virgilia:
+no, so and the people.
+----------------------------------------
+
+[Temperature: 0.8]
+shall i compare thee to a summer's day? lore have bearten to have fould and our as condent?
+
+vordiol:
+huse our caused an the swound the
+here hath he't deees, that loke but your dis not trum, he hath they streat it to his leary afainst
+the p
+----------------------------------------
+
+[Temperature: 1.2]
+shall i compare thee to a summer's day? ke 'tymy'ss heart let in'ft-tithen.
+
+vialeria:
+madet holdh be?
+-etis
+if tourd; flea.
+of who rower thee hend some and
+aipergate.
+
+or not, shudd heren ateak, straih his are thich metore foold ofny:
+indy
 ----------------------------------------
 
 >>> SEED PROMPT: "romeo: "
 ------------------------------------------------------------
 
 [Temperature: 0.2]
-romeo: lady, by yonder blessed moon i vow, that tips with silver all these fruit-tree tops.
+romeo: the comm, the good and the comment the people the pearted to have soun and the comped the people the belling the compoon the the strower, the compood to the our the comment the chat the people the god
 ----------------------------------------
 
 [Temperature: 0.5]
-romeo: give me a torch, i am not for this ambling; being but heavy, i will bear the light.
+romeo: the beher. he have have have to be the compented and him the glingh and the strowe he deers for the first he should here stere have hear him sour in counter and the gorth,
+why the hears the bear the c
 ----------------------------------------
 
 [Temperature: 0.8]
-romeo: what lady is that, which doth enrich the hand of yonder knight? o, she doth teach the torches to burn bright!
+romeo: i' than shation to my
+coriolanus?
+
+brutus:
+the enere the heart let sour you vist rither. i that our hear of the warr that ke have the opechie the fortion word,
+flatter hid stainte he have to the being
 ----------------------------------------
 
 [Temperature: 1.2]
-romeo: farewell! thou canst not teach me to forget the radiance of thy divine perfection!
+romeo: wancus a gransy well, anowandr to mue, our verole:-
+thick
+dear kisd repgived pulicmixn in'wing hear retserw that gore!
+
+virgilia:
+thibn feor'd ths ins word, ald morpihiarketcifious,
+by clach, we oneta
 ----------------------------------------
+
+================================================================================
+
 
 ================================================================================
 TEXT GENERATION REPORT (Model: Deeper_Stacked_2Layer_LSTM)
@@ -67,38 +151,124 @@ TEXT GENERATION REPORT (Model: Deeper_Stacked_2Layer_LSTM)
 ------------------------------------------------------------
 
 [Temperature: 0.2]
-first citizen: we are accounted poor citizens, the patricians good. what authority surfeits on would relieve us.
+first citizen: with the cors the sor the port the bear the bears and the bear the bear the beart and the corte the bear the corturs the corre the the coming the bear
 ----------------------------------------
 
 [Temperature: 0.5]
-first citizen: we have power in ourselves to do it, but it is a power that we have no power to do.
+first citizen: whe hall the at the cortus of the sors the sos the bearl.
+
+marsius:
+i marcius and in bearg the gors the told the ether for thith me sour marcius that
 ----------------------------------------
 
 [Temperature: 0.8]
-first citizen: you have been a scourge to her enemies, you have been a rod to her friends; what says the noble general?
+first citizen: afis tho got and be and
+hang hear the goucitis carcius, and dirs hear my sous formtores'd 'ur cats heare the ane
+tho peat a got more fow of my meape c
 ----------------------------------------
 
 [Temperature: 1.2]
-first citizen: well, master citizen, we are well resolved! let vengeance take its course throughout these gates.
+first citizen: af
+yoe wosda'r'd. 'fith menpordir,
+ly ich it meredis
+conof wase methen, eee. maciusf
+am cronbang in efasgm
+crite nece pover thaat nompo momcs:-t be,
+f
 ----------------------------------------
 
 >>> SEED PROMPT: "to be, or not to be, that is the question: "
 ------------------------------------------------------------
 
 [Temperature: 0.2]
-to be, or not to be, that is the question: whether it be better to bear those ills we have than fly to others that we know not of.
+to be, or not to be, that is the question: the fors of the bear the pores the thas hath the sood the gors and the sor the bears the pors the gors the sort the sors the corss the cors the more t
 ----------------------------------------
 
 [Temperature: 0.5]
-to be, or not to be, that is the question: for in that sleep of death what dreams may come when we have shuffled off this mortal coil.
+to be, or not to be, that is the question: and the could word-
+nome cave mearcius, a the und and the btertitius brears sot whis and that the thall that and that hear in yout the beart our of th
 ----------------------------------------
 
 [Temperature: 0.8]
-to be, or not to be, that is the question: the undiscovered country from whose bourn no traveller returns puzzles the will.
+to be, or not to be, that is the question: i meain me pore on belong poster how we you.
+
+festen: the foreath, whe their this of youe leatter that she pore
+of my sot ot wive the gore'd the paree
 ----------------------------------------
 
 [Temperature: 1.2]
-to be, or not to be, that is the question: thus conscience doth make cowards of us all, and resolution is sicklied o'er.
+to be, or not to be, that is the question: i sot!
+
+eurs'l:
+therell you. i hbuge and aange to marcile, by co qtuns that ucef nack't
+woe'l andid
+caten meack hean
+the ond maygor ce.
+
+mirsius:
+fori
+----------------------------------------
+
+>>> SEED PROMPT: "shall i compare thee to a summer's day? "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+shall i compare thee to a summer's day? 
+marcius:
+i marcius the the the bears the comtors the be the pors the bears the bore the bears the bear the bear the of the bears the cors the ond the
+----------------------------------------
+
+[Temperature: 0.5]
+shall i compare thee to a summer's day? whe dore;
+he in tho cory the goir the gord we the that the tonle and the gorre the fored meare the ports other hise the fornd of on the sit me on be a
+----------------------------------------
+
+[Temperature: 0.8]
+shall i compare thee to a summer's day? whene mast at nists hupt we mears wall. the fis that goukd of thooe so back ywut
+hort bothien hace whone bearilg bet my fon undrent. 
+first cirius:
+co
+----------------------------------------
+
+[Temperature: 1.2]
+shall i compare thee to a summer's day? fo. she lear shaant he efopefodisl
+sould felk
+putt efenawc ir.
+the fiphiter'r,heme thase werk kour nyay, carcius co pate!'
+nleanm calusesat
+lurd afok,
+----------------------------------------
+
+>>> SEED PROMPT: "romeo: "
+------------------------------------------------------------
+
+[Temperature: 0.2]
+romeo: the sort the bear the sors the beat the sors the bears the bears the gorrs the beart the pore the the the porter the sors the port the bears the sote
+----------------------------------------
+
+[Temperature: 0.5]
+romeo: be that hir mare menere the morest the fiter comecise and the pile.
+
+marcius:
+i the sit he his be'rang the the pors the calcile the fores the ind fort
+----------------------------------------
+
+[Temperature: 0.8]
+romeo: cou meist fore wall pecors: with cals araot and i eeear of tes the beart,
+whe soor you. whars shear the filt our in crargirs: the llars
+out a farpangt
+----------------------------------------
+
+[Temperature: 1.2]
+romeo: ald de of fombhunscanss the jorage 'talls orpitas ie fkamped-
+ghach,
+pothid leatt the by.'
+
+first citizius:
+gor thrin.
+
+virs ecils:
+whe portumdone tha
 ----------------------------------------
 
 ================================================================================
