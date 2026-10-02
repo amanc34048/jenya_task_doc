@@ -5,13 +5,23 @@ Defines LSTM architectures (single-layer baseline and deeper multi-layer variant
 embedding layers, regularization (dropout), and model compilation.
 """
 
+import warnings
+
+# Suppress noisy deprecation/future warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
+
 import numpy as np
 
 # Ensure compatibility with SciPy/NumPy versions
-if not hasattr(np, "long"):
+try:
     np.long = int
-if not hasattr(np, "ulong"):
+except Exception:
+    pass
+try:
     np.ulong = int
+except Exception:
+    pass
 
 import tensorflow as tf
 from tensorflow.keras import layers, models, regularizers
@@ -81,5 +91,12 @@ def build_lstm_model(
 
 
 if __name__ == "__main__":
+    print("=" * 60)
+    print(" TESTING MODEL ARCHITECTURE (Deeper 2-Layer LSTM)")
+    print("=" * 60)
     sample_model = build_lstm_model(vocab_size=65, num_layers=2)
+    sample_model.build(input_shape=(None, 40))
     sample_model.summary()
+    print("Model architecture compiled and validated successfully!")
+    print("=" * 60)
+

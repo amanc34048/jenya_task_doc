@@ -8,13 +8,23 @@ and preparing sliding-window input-output sequences for training.
 import os
 import re
 import urllib.request
+import warnings
+
+# Suppress noisy deprecation/future warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
+
 import numpy as np
 
 # Ensure compatibility with SciPy/NumPy versions
-if not hasattr(np, "long"):
+try:
     np.long = int
-if not hasattr(np, "ulong"):
+except Exception:
+    pass
+try:
     np.ulong = int
+except Exception:
+    pass
 
 import tensorflow as tf
 
@@ -151,3 +161,26 @@ def prepare_tf_dataset(X, y, val_split: float = 0.2, batch_size: int = 128, shuf
 
     print(f"Dataset split: Train samples = {train_count}, Val samples = {val_count}, Batch size = {batch_size}")
     return train_ds, val_ds, (X_train, y_train), (X_val, y_val)
+
+
+if __name__ == "__main__":
+    print("=" * 60)
+    print(" TESTING DATA PREPROCESSING MODULE")
+    print("=" * 60)
+    data_path = download_dataset()
+    sample_text = load_and_clean_text(data_path, lowercase=True, max_chars=10000)
+    print(f"Sample loaded text length: {len(sample_text)} characters")
+    
+    tokenizer = TextTokenizer(level="char")
+    tokenizer.fit(sample_text)
+    encoded = tokenizer.encode(sample_text[:50])
+    decoded = tokenizer.decode(encoded)
+    print(f"Original snippet:  {repr(sample_text[:50])}")
+    print(f"Decoded snippet:   {repr(decoded)}")
+    assert decoded == sample_text[:50], "Tokenizer encode/decode mismatch!"
+
+    X_seq, y_seq = create_sequences(encoded, seq_length=20, step=3)
+    train_ds, val_ds, _, _ = prepare_tf_dataset(X_seq, y_seq, val_split=0.2, batch_size=8)
+    print("Data Preprocessing Module test passed successfully!")
+    print("=" * 60)
+

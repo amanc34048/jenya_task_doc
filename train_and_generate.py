@@ -8,13 +8,23 @@ performs bonus architecture comparisons, and saves generated outputs to generate
 import os
 import time
 import argparse
+import warnings
+
+# Suppress noisy deprecation/future warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
+
 import numpy as np
 
 # Ensure compatibility with SciPy/NumPy versions
-if not hasattr(np, "long"):
+try:
     np.long = int
-if not hasattr(np, "ulong"):
+except Exception:
+    pass
+try:
     np.ulong = int
+except Exception:
+    pass
 
 import tensorflow as tf
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
